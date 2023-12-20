@@ -1,0 +1,30 @@
+header {
+  border-bottom: 1px solid #e1e1e1;
+  background-color: #ffffff;
+}
+
+.container {
+  max-width: 1140px;
+  padding: 0 15px;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  margin: 0;
+}
+
+.divider {
+  width: 80px;
+  height: 3px;
+  background-color: #32c5d2;
+}
+
+.multi-line-text-truncation {
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  display: -webkit-box;
+}

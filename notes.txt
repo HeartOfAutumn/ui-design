@@ -1,0 +1,20 @@
+# For home page:
+header:
+- social
+    - fb, youtube, phone
+- nav:
+    - logo, home, about, blog (posts), notify, login, register
+        - Lấy màu sắc của https://stackshare.io/ và https://bibekshakya.com/demo/react/antdesign/tech/#hero
+            - #FFFBF7
+            - #9CE2FE
+            - #F6FCFE
+        - layout header giống của https://stackshare.io/
+        - Font family:
+            Open Sans, Helvetica Neue, Helvetica, Arial, sans
+body:
+- category
+- carousel
+- product-list
+- post-list
+footer:
+- brand
