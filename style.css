@@ -16,6 +16,12 @@ p {
   margin: 0;
 }
 
+ul, ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
 .divider {
   width: 80px;
   height: 3px;
