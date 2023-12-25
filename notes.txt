@@ -1,3 +1,13 @@
+# Business Flow
+
+- Home -> Detail -> Add to cart -> Confirm buy -> Form to fill infor -> Submit (Supporter will contact to confirm buy) -> Export order
+
+https://www.bachhoaxanh.com/
+https://123nick.vn
+https://divineshop.vn/
+https://nhathuoclongchau.com.vn/
+https://stackshare.io/
+
 # For home page:
 header:
 - social
@@ -18,3 +28,8 @@ body:
 - post-list
 footer:
 - brand
+
+# For detail product: 
+    - Tham khảo:
+    https://www.bachhoaxanh.com/nuoc-tuong/nuoc-tuong-tam-thai-tu-nhat-ca-500mlnhan24
+    https://www.bachhoaxanh.com/trai-cay-tuoi-ngon/hop-qua-trai-cay-nhap-khau-4?preFreshType=preorder
