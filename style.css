@@ -3,6 +3,10 @@ header {
   background-color: #ffffff;
 }
 
+.navbar {
+  padding: 0px;
+}
+
 .container {
   max-width: 1140px;
   padding: 0 15px;

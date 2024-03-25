@@ -15,48 +15,68 @@
   <body>
     <header class="p-2 sticky-top">
       <div class="container">
-        <div class="d-flex align-items-center justify-content-center">
-          <a href="/" class="d-flex align-items-center">
-            <img src="images/logo.png" alt="vegashop" width="30" height="30" />
-          </a>
-          <a href="#" class="nav-link px-2 text-secondary">Vegashop</a>
+        <nav class="navbar navbar-expand-lg d-flex align-items-center">
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-          <ul class="nav mx-auto dropdown">
-            <li>
-              <a
-                href="#"
-                class="nav-link px-3 dropdown-toggle"
-                data-bs-toggle="dropdown"
-                >Features</a
-              >
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><hr class="dropdown-divider" /></li>
-                <li>
-                  <a class="dropdown-item" href="#">Something else here</a>
+          <div class="d-flex align-items-center justify-content-center">
+            <a href="/" class="d-flex align-items-center">
+              <img src="images/logo.png" alt="vegashop" width="30" height="30" />
+            </a>
+            <a href="#" class="nav-link px-2 text-secondary navbar-brand">Vegashop</a>
+          </div>
+
+          <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Vegashop</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav mx-auto">
+                <li class="nav-item px-2 dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Features
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li>
+                      <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item px-2">
+                  <a class="nav-link" href="#">Pricing</a>
+                </li>
+                <li class="nav-item px-2">
+                  <a class="nav-link" href="#">FAQs</a>
+                </li>
+                <li class="nav-item px-2">
+                  <a class="nav-link" href="#">About</a>
                 </li>
               </ul>
-            </li>
-            <li><a href="#" class="nav-link px-3">Pricing</a></li>
-            <li><a href="#" class="nav-link px-3">FAQs</a></li>
-            <li><a href="#" class="nav-link px-3">About</a></li>
-          </ul>
+            </div>
+          </div>
 
-          <form class="me-3" role="search">
+          <!-- <form class="me-3" role="search">
             <input
               type="search"
               class="form-control rounded-pill"
               placeholder="Search..."
               aria-label="Search"
             />
-          </form>
+          </form> -->
 
           <div>
-            <button type="button" class="btn btn-primary me-2">Login</button>
-            <button type="button" class="btn btn-warning">Giỏ hàng</button>
+            <!-- <button type="button" class="btn btn-primary me-2">Login</button> -->
+            <button type="button" class="btn btn-warning">
+              <i class="fa-solid fa-cart-shopping"></i>
+              <span>Giỏ hàng</span>
+            </button>
           </div>
-        </div>
+        </nav>
       </div>
     </header>
 
